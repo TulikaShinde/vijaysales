@@ -1,0 +1,23 @@
+{
+  "name": "vijaysales",
+  "version": "1.0.0",
+  "description": "This is simple Vijay Sales Online shopping application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TulikaShinde/vijaysales.git"
+  },
+  "author": "Tulika",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TulikaShinde/vijaysales/issues"
+  },
+  "homepage": "https://github.com/TulikaShinde/vijaysales#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
