@@ -15,7 +15,7 @@ app.get("/", (req, res) =>
         +"<li>Holographic Devices</li>"
         +"<li>Smart Watches</li>"
         +"<li>Gaming Consoles</li>"
-        +"<ol>"
+        +"</ol>"
     );
 });
 
@@ -29,7 +29,21 @@ app.get("/aboutus", (req, res) =>
         +"<ol>"
         +"<li>Laptops 30% off</li>"
         +"<li>Mobile Phones 20% off</li>"
-        +"<ol>"
+        +"</ol>"
+    );
+});
+
+app.get("/login", (req, res) => 
+{
+    res.send(
+        "<h1>Vijay Sales</h1>"
+        +"<h3>Login</h3>"
+        +"<hr/>"
+        +"<form>"
+        +"<br/>"
+        +"<input/>"
+        +"<button>Login</button>"
+        +"</form>"
     );
 });
 
